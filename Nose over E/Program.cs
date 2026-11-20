@@ -21,3 +21,30 @@
 //     Console.WriteLine("Incorrect User or Password");
 // }
 // Console.ReadLine();
+
+// int count = 0;
+
+// while (count < 32)
+// {
+//     Console.WriteLine("Hello, world");
+//     count++;
+// }
+// Console.ReadLine();
+
+// Console.WriteLine("Vad är lösenordet?");
+
+// while(true)
+// {
+//     string password = Console.ReadLine();
+//     if (password != "12345")
+//     {
+//         Console.WriteLine("Fel lösenord");
+//     }
+//     else if(password == "12345")
+//     {
+//         Console.WriteLine("Välkommen!");
+//         break;
+//     }
+//     Console.ReadLine();
+// }
+
