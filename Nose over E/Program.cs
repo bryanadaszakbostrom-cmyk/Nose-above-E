@@ -50,15 +50,21 @@ using System.Reflection.Metadata;
 //     Console.ReadLine();
 // }
 
-// Uppg.6
-int bart;
-string idk = "5";
-bool fart = int.TryParse(idk, out bart);
-while (true)
+// Uppg.6,7
+while(true)
 {
-    
-    if (idk == "")
-    {
-        
-    }
+System.Console.WriteLine("Skriv en siffra: ");
+string text = System.Console.ReadLine()!;
+
+try
+{
+    int value = int.Parse(text);
+    Console.WriteLine(value * 2);
+    Console.ReadLine();
+    break;
+}
+catch
+{
+    Console.WriteLine("Det är inte en siffra!");    
+}
 }
